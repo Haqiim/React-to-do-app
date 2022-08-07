@@ -10,6 +10,15 @@
 }
 .list ul {
   width: 100%;
-  height: 30px;
+  height: auto;
+  list-style: none;
   background-color: green;
+}
+.list li {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-bottom: 2px solid black;
 }

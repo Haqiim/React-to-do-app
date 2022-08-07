@@ -3,27 +3,27 @@ import List from './List.jsx';
 import '../styles/Container.css';
 
 function Container() {
-  const [count, setCount] = useState({
-    name: 'Ola',
-    age: 2,
-  });
+  let arr = [];
 
-  useEffect(() => {
-    setInterval(increment, 1000);
-  }, []);
+  let addItem = () =>{
+    arr.push()
+  }
 
-  let increment = () => {
-    setCount((...previousState) => {
-      return { ...previousState, age: count.age + 1 };
-    });
+  let addToList= () => {
+  
   };
 
   return (
     <div className="container">
       <div className="header">To-do app</div>
       <div className="action">
-        <input className="item_input" type="text" name="firstname" />
-        <button className="add" name="add"></button>
+        <input
+          className="item_input"
+          type="text"
+          name="firstname"
+          onChange={addToList}
+        />
+        <button className="add" name="add" onCLick={addItem}></button>
       </div>
       <List />
     </div>
