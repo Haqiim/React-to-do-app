@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import List from './List.jsx';
 import '../styles/Container.css';
 
 function Container() {
@@ -24,6 +25,7 @@ function Container() {
         <input className="item_input" type="text" name="firstname" />
         <button className="add" name="add"></button>
       </div>
+      <List />
     </div>
   );
 }

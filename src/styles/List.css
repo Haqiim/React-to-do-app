@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.list {
+  width: 80%;
+  height: 100px;
+  background-color: yellow;
+  margin: auto;
+}
+.list ul {
+  width: 100%;
+  height: 30px;
+  background-color: green;
+}

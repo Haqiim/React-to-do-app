@@ -26,18 +26,23 @@ button {
   display: block;
 }
 input {
-  width: 80%;
+  width: 87%;
   display: block;
   border: 0px;
   height: 30px;
 }
+
+input:focus {
+  outline: none;
+  color: none;
+}
 .action {
   width: 80%;
-  height: 50px;
-  background-color: yellow;
-  border-radius: 10px;
+  height: 40px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
+  border: 1px black solid;
   justify-content: center;
   margin: auto;
 }
